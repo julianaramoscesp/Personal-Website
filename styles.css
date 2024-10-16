@@ -43,8 +43,11 @@ h4 {
 }
 
 .nav-container {
+    
     display: flex;
     justify-content: flex-end; /* Aligns items to the right */
+    /*position: fixed;
+    /*background-color: #ffffff;*/
 }
 
 nav ul {
@@ -55,11 +58,21 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 15px;
+    
 }
 
 nav a {
     color: #333;
     text-decoration: none;
+    padding: 0 5px;
+    transition: font-weight 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    color:#000000;
+    font-weight: 550; /* Make it bold */
+    /*transform: scale(1.1); /* Slightly enlarge the text */
+
 }
 
 section {
@@ -98,6 +111,24 @@ footer {
     
 }
 
+.logo{
+    height: 40px; /* Adjust the height of the logo */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 15px;
+}
+
+.name{
+    display: flex;
+    align-items: center; /* Vertically center the logo and text */
+    padding: 15px;
+    /*background-color: #f0f0f0;*/
+    /*height: 10px; /* Set the height of the container */
+    /*line-height: 10px; /* Same as height to vertically center the text */
+    /*display: flex;
+    justify-content: center; /* Horizontally center */
+    /*align-items: center;
+   /* text-align: center;*/
+}
 .terminal {
     width: 900px;
     margin: 0 auto;
