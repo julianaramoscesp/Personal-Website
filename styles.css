@@ -7,11 +7,6 @@ body {
 
 }
 
-/*buttondiv {
-    justify-content: center;
-    align-items: center;
-}*/
-
 header {
     background: #333;
     color: #fff;
@@ -38,16 +33,12 @@ h4 {
 }
 
 .div2 {
-    /*background-color: lightblue;*/
     margin: 0;
 }
 
 .nav-container {
-    
     display: flex;
-    justify-content: flex-end; /* Aligns items to the right */
-    /*position: fixed;
-    /*background-color: #ffffff;*/
+    justify-content: flex-end;
 }
 
 nav ul {
@@ -71,8 +62,6 @@ nav a {
 nav a:hover {
     color:#000000;
     font-weight: 550; /* Make it bold */
-    /*transform: scale(1.1); /* Slightly enlarge the text */
-
 }
 
 section {
@@ -82,8 +71,6 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    /*background: #333;
-    color: #fff;*/
     position: relative;
     bottom: 0;
     width: 100%;
@@ -95,20 +82,13 @@ footer {
 
 .column {
     flex: 1; /* Each column takes equal space */
-    /*padding: 20px; /* Optional padding */
-    /*border: 1px solid #ccc; /* Example border */
-    /*background-color: #f0f0f0; /* Example background */
 }
 
 .circular-image {
-    /*justify-content: center; /* Center horizontally */
-    /*align-items: center;*/
     width: 300px; /* Set width */
     height: 300px; /* Set height */
     border-radius: 50%; /* Make it circular */
-    object-fit: cover; /* Ensure the image covers the entire area */
-    /*border: 2px solid #ccc; /* Optional border */
-    
+    object-fit: cover; /* Ensure the image covers the entire area */    
 }
 
 .logo{
@@ -121,13 +101,6 @@ footer {
     display: flex;
     align-items: center; /* Vertically center the logo and text */
     padding: 15px;
-    /*background-color: #f0f0f0;*/
-    /*height: 10px; /* Set the height of the container */
-    /*line-height: 10px; /* Same as height to vertically center the text */
-    /*display: flex;
-    justify-content: center; /* Horizontally center */
-    /*align-items: center;
-   /* text-align: center;*/
 }
 .terminal {
     width: 900px;
@@ -135,7 +108,6 @@ footer {
     border-radius: 5px;
     padding: 15px;
     background-color: #1e1e1e;
-    /*box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);*/
     border: 1px solid #5c5c5c;
     position: relative;
 }
@@ -194,7 +166,6 @@ input {
     font-family: Menlo, Monaco, "Courier New", monospace;
     outline: none;
     width: 100%;
-    /*font-family: inherit;*/
     font-size: inherit;
     padding: 0; /* Remove extra padding that could cause indentation */
 }
@@ -218,7 +189,6 @@ input::selection {
 .non-prompt {
     color: #cccccc; /* Light gray text for non-prompt text */
     font-family: Menlo, Monaco, "Courier New", monospace;
-    /*color: #ffffff;*/
     font-style: italic; /* Make non-prompt text distinguishable */
 }
 
@@ -268,6 +238,4 @@ input::selection {
     justify-content: center;
     align-items: center;
     height: 100px; /* Adjust this value for the height of the div */
-    /*background-color: #f0f0f0; Light background to visualize the container 
-    border: 1px solid #ccc;*/
   }
