@@ -1,4 +1,5 @@
 function handleInput(event) {
+    // testing if this comment works
     if (event.key === "Enter") {
         const inputField = document.getElementById("input");
         const outputDiv = document.getElementById("output");
